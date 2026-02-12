@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||徐倩❤刘志刚|我爱你|宝宝|我们要永远永远在一起|情人节快乐|❤|#rectangle|');
+      S.UI.simulate('|#countdown 10||徐倩❤刘志刚|宝宝|我爱你|过人生中第一个情人节|也是和宝宝的第一个|真的好开心|好幸福|原来和爱的人在一起|是这么美妙的事情|一屋|两人|三餐|四季|和你共度余生|我们要永远永远在一起|情人节快乐|❤|❤❤❤|❤|❤❤❤❤|#rectangle|');
     }
 
     S.Drawing.loop(function () {
